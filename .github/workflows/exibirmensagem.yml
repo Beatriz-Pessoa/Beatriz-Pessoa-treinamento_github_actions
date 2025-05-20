@@ -1,0 +1,12 @@
+name: Workflow chamador
+
+on: 
+  pull_request:
+    branches: 
+      - main
+
+jobs:
+  chamar-worflow:
+    uses: ./.github/worflows/mensagem.yml
+    with:
+      username: 'Beatriz Tavares'
