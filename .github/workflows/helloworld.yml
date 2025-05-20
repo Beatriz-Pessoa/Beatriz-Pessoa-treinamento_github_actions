@@ -1,9 +1,7 @@
 name: Workflow Hello World
 
 on: 
-  push:
-    branch:
-      - main
+  workflow_dispatch:
 
 jobs: 
   run-echo:
