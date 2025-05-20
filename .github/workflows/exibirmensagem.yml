@@ -7,6 +7,6 @@ on:
 
 jobs:
   chamar-worflow:
-    uses: ./.github/worflows/mensagem.yml
+    uses: ./.github/workflows/mensagem.yml
     with:
-      username: 'Beatriz Tavares'
+      username: 'Beatriz Tavares Perdomo'
